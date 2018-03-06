@@ -4,8 +4,8 @@ body {
 
 
 .background{
-    position: relative;
     background-image: url("images/skyscrapper.jpg");
+    position: relative;
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
@@ -14,6 +14,35 @@ body {
     /* Vertical Center */
     display:flex;
     align-items:center;
+}
+
+.background-about {
+    background-image: url("images/oldschool.jpg");
+    position: relative;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%; 
+    /* Vertical Center */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-direction:row;
+    
+}
+
+
+.background-contact {
+    background-image: url("images/contact.jpg");
+    position: relative;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%; 
+    /* Vertical Center */
+    display:flex;
 }
 
 .topleft {
@@ -83,6 +112,23 @@ body {
 
 
 }
+
+.oldheading {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 10px;
+    
+    
+}
+
+
+
+
+
+
     
     
 
