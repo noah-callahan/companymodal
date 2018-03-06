@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+
+.background{
+    position: relative;
+    background-image: url("images/skyscrapper.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%; 
+    /* Vertical Center */
+    display:flex;
+    align-items:center;
+}
+
+.topleft {
+    position: absolute;
+    top:0;
+    left:20px;
+    padding-bottom: 5em;
+}
+
+
+.heading {
+    width: 550px;
+    height: 150px;
+    font-size: 65px;
+    color: #0489AA;
+    text-shadow: 4px 4px black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.slogan {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: #0489AA;
+    text-shadow: 3px 3px black;
+
+}
+
+.nav {
+    width: 100%;
+
+}
+
+.nav ol {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.nav ol li {
+    display: inline;
+    font-size: 65px;
+    padding: 20px;
+    color: #0489AA;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    border: 5px solid black;
+    text-align: center;
+    background-color: rgba(207, 243, 229, 0.3);
+
+
+}
+
+.nav ol a {
+    text-decoration: none;
+
+
+}
+    
+    
+
+
+
+
+
+
+
