@@ -11,7 +11,33 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     
 </head>
+
+
+
+
 <body>
+
+<div id="myModal">s
+
+    <div>
+        <span class="close">[&times;]</span>
+        <h1>Questions?</h1>
+        <h2>Let us call you! Our representatives are standing by!</h2>
+        <img src="images/dog.jpg">
+
+        <form>
+                <span>Full Name:</span><br>
+                <input type="text" name="firstname"><br>
+                <span>Number:</span><br>
+                <input type="text" name="lastname"><br>
+                <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+</div>
+
+
     <div class="background">
         <div class="topleft">
             <h1 class="heading">CALLAHAN CONSTRUCTION</h1>
@@ -41,4 +67,31 @@
     </div>
     
 </body>
+
+<script>
+
+
+var popup = document.getElementById('myModal');
+
+var span = document.getElementsByClassName("close")[0];
+
+
+
+setTimeout(function() {
+    popup.style.display = "block";
+    
+}, 3000);
+
+span.onclick = function() {
+    popup.style.display = "none";
+}
+
+
+
+
+
+
+
+</script>
+
 </html>
