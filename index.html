@@ -17,9 +17,10 @@
 
 <body>
 
-<div id="myModal">
+<div id="myModal">s
 
     <div>
+        <span class="close">[&times;]</span>
         <h1>Questions?</h1>
         <h2>Let us call you! Our representatives are standing by!</h2>
         <img src="images/dog.jpg">
@@ -69,13 +70,24 @@
 
 <script>
 
+
 var popup = document.getElementById('myModal');
+
+var span = document.getElementsByClassName("close")[0];
+
 
 
 setTimeout(function() {
     popup.style.display = "block";
     
 }, 3000);
+
+span.onclick = function() {
+    popup.style.display = "none";
+}
+
+
+
 
 
 
